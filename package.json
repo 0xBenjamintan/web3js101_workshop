@@ -1,0 +1,24 @@
+{
+  "name": "web3js101_workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts",
+    "transfer": "ts-node ./transfer.ts",
+    "enroll": "ts-node ./enroll.ts",
+    "decode": "ts-node ./decode.ts"
+  },
+  "dependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/web3.js": "^1.91.4",
+    "@types/node": "^20.12.4",
+    "bs58": "^5.0.0",
+    "prompt-sync": "^4.2.0",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
